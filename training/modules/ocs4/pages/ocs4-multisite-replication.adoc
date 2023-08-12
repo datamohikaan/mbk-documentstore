@@ -1,0 +1,12 @@
+= OpenShift Regional Disaster Recovery
+:toc:
+:toclevels: 4
+:icons: font
+:source-language: shell
+:numbered:
+// Activate experimental attribute for Keyboard Shortcut keys
+:experimental:
+:source-highlighter: pygments
+:hide-uri-scheme:
+
+IMPORTANT: This document has moved to xref:RegionalDR:manual:ocs4-multisite-replication.adoc[this location]
