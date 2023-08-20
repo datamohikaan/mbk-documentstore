@@ -19,7 +19,7 @@ RUN useradd non-root-postgres-user --group non-root-postgres-group
 RUN chown -R non-root-postgres-user:non-root-postgres-group /temp
 
 RUN chmod 777 /temp
-RUN chmod 777 /var/lib/postgresql/data'
+RUN chmod 777 /var/lib/postgresql/data
 RUN chmod 777 /var/run/postgresql
 
 ENV POSTGRES_PASSWORD=pw
