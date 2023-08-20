@@ -1,2 +1,0 @@
-
-* xref:ocs4-infra-nodes.adoc[Deploying on Infra nodes]
