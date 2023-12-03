@@ -1,5 +1,5 @@
 #FROM cir.chp.belastingdienst.nl/quayio/enterprisedb/postgresql:latest
-FROM FROM quay.io/enterprisedb/postgresql:latest
+FROM quay.io/enterprisedb/postgresql:latest
 
 ENV POSTGRES_USER=user1
 ENV POSTGRES_PASSWORD=password1
