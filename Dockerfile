@@ -5,6 +5,8 @@ ENV POSTGRES_USER=user1
 ENV POSTGRES_PASSWORD=password1
 ENV POSTGRES_DB=database1
 
+USER root
+RUN chmod a+rwx -R /var/lib/postgresql/data
 
 #add storage persistant volume claims
 #pvc1 = '/var/lib/postgresql/data'  mbk-documentstore-var-lib-postgresql-data
