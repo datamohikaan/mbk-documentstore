@@ -7,6 +7,8 @@ ENV POSTGRES_DB=database1
 
 USER root
 RUN chmod a+rwx -R /var/lib/postgresql/data
+RUN chmod a+rwx -R /var/run/postgresql
+
 
 #add storage persistant volume claims
 #pvc1 = '/var/lib/postgresql/data'  mbk-documentstore-var-lib-postgresql-data
